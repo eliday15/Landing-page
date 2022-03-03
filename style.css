@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'roboto';
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+.hero, .footer{
+    background-color: #1F2937;
+    
+}
+.power{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.title{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 15px;
+}
+.awesome{
+    font-size: 48px;
+    color:#F9FAF8 ;
+    margin: 0;
+    padding: 0;
+}
+.desc{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#ba{
+    font-size: 24px;
+    background-color: #3882F6;
+    color:#F9FAF8 ;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+.blue-img{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 60px;
+    flex-shrink: 0;
+}
+
+.im{
+    max-width: 100px;
+}
+.random{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.insp{
+    flex-wrap: nowrap;
+    padding: 0 60px;
+}
+.insp{
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    margin: 40px 0px;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 0 100px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.cont-action{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    text-align: center;
+}
+.f{
+    font-size: 24px;
+    background-color: #3882F6;
+    color:#F9FAF8 ;
+    border-radius: 5px;
+    border: 2px;
+    border-color: white;
+}
+.thor{
+    text-align: right;
+}
+.insp-p{
+    text-align: center;
+}
